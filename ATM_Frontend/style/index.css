@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #999;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border-width: 0;
+}
+.img {
+	position: relative;
+	z-index: 2;
+}
+a {
+	color: #000;
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+#all {
+	width: 900px;
+	height: 716px;
+	background-color: #FF0;
+	margin: 0 auto;
+}
+#banner {
+	width: 900px;
+	height: 101px;
+}
+.banner_top {
+	width: 900px;
+	height: 91px;
+	background-image: url(../images/banner_bg_img1.png);
+	overflow: hidden;
+}
+.banner_bannerimg {
+	float: left;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.banner_fontimg {
+	float: left;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.banner_bottom {
+	width: 900px;
+	height: 10px;
+	overflow: hidden;
+	background-color: #E20001;
+}
+#main {
+	width: 900px;
+	height: 578px;
+	background-image: url(../images/main_bg_img.png);
+	overflow: hidden;
+	position: relative;
+}
+.main_hr {
+	width: 860px;
+	height: 5px;
+	overflow: hidden;
+	background-image: url(../images/2014-03-10_231431.gif);
+	margin: 0 auto;
+	margin-top: 1px;
+}
+.floor1 {
+	width: 900px;
+	height: 160px;
+	margin-top: 70px;
+	font-weight: 900;
+	font-size: 30px;
+}
+.floor1 a {
+	width: 150px;
+	height: 150px;
+	display: block;
+}
+.floor1 a:hover {
+	background-color: #6FF;
+}
+.floor1_draw_money {
+	position: relative;
+	float: left;
+	margin-left: 150px;
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+.draw_money_bgimg {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+.draw_money_font {
+	position: absolute;
+	top: 111px;
+	left: 45px;
+}
+.floor1_deposit_money {
+	position: relative;
+	float: left;
+	margin-left: 75px;
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+.deposit_money_bgimg {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+.deposit_money_font {
+	position: absolute;
+	top: 111px;
+	left: 45px;
+}
+.floor1_search {
+	position: relative;
+	float: left;
+	margin-left: 75px;
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+.search_bgimg {
+	float: left;
+	display: inline;
+	position: relative;
+	margin-left: 10px;
+}
+.search_font {
+	position: absolute;
+	top: 111px;
+	left: 13px;
+	z-index: 20;
+}
+.floor2 {
+	width: 900px;
+	height: 160px;
+	margin-top: 50px;
+	font-weight: 900;
+	font-size: 30px;
+}
+.floor2 a {
+	width: 150px;
+	height: 150px;
+	display: block;
+}
+.floor2 a:hover {
+	background-color: #6FF;
+}
+.floor2_changecode {
+	position: relative;
+	float: left;
+	margin-left: 150px;
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+.changecode_bgimg {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+.changecode_font {
+	position: absolute;
+	top: 111px;
+	left: 12px;
+}
+.floor2_user_imformation {
+	position: relative;
+	float: left;
+	margin-left: 75px;
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+.user_imformation_bgimg {
+	float: left;
+	display: inline;
+	margin-left: 25px;
+}
+.user_imformation_font {
+	position: absolute;
+	top: 111px;
+	left: 12px;
+}
+.floor2_zhuanzhan {
+	position: relative;
+	float: left;
+	margin-left: 75px;
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+.zhuanzhan_bgimg {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+.zhuanzhan_font {
+	position: absolute;
+	top: 111px;
+	left: 13px;
+}
+.back_card {
+	position: absolute;
+	top: -80px;
+	left: 710px;
+}
+.footer {
+	position: relative;
+	width: 900px;
+	height: 37px;
+	background-image: url(../images/footer_bg_img.png);
+	float: left;
+	line-height: 37px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+.banners {
+	width: 65px;
+}
+.cunkuanimg {
+	width: 110px;
+}
+.pic1 {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+
+

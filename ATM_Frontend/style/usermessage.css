@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #999;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border-width: 0;
+}
+#all {
+	width: 900px;
+	height: 716px;
+	background-color: #FF0;
+	margin: 0 auto;
+}
+#banner {
+	width: 900px;
+	height: 101px;
+}
+.banner_top {
+	width: 900px;
+	height: 91px;
+	background-image: url(../images/banner_bg_img1.png);
+	overflow: hidden;
+}
+.banner_bannerimg {
+	float: left;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+#banner_bannerimg {
+	width: 65px;
+}
+.banner_fontimg {
+	float: left;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.banner_bottom {
+	width: 900px;
+	height: 10px;
+	overflow: hidden;
+	background-color: #E20001;
+}
+#main {
+	width: 900px;
+	height: 578px;
+	background-image: url(../images/main_bg_img.png);
+	overflow: hidden;
+}
+.main_hr {
+	width: 860px;
+	height: 5px;
+	overflow: hidden;
+	background-image: url(../images/banner_bg_img2.png);
+	margin: 0 auto;
+	margin-top: 1px;
+}
+.messagebox {
+	width: 400px;
+	height: 500px;
+	background-color: #E2E2E2;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.floor1, .floor2, .floor3, .floor4 {
+	width: 400px;
+	height: 45px;
+}
+.floor1 {
+	margin-top: 60px;
+}
+.floor2 {
+	margin-top: 30px;
+}
+.floor3 {
+	margin-top: 30px;
+}
+.floor4 {
+	margin-top: 30px;
+}
+.floor5 {
+	width: 400px;
+	margin-top: 90px;
+}
+.back {
+	width: 155px;
+	float: left;
+	display: inline;
+	margin-left: 220px;
+}
+.floorfont {
+	width: 250px;
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+.floorinput {
+	height: 45px;
+	float: left;
+	width: 250px;
+	text-align: left;
+	font-size: 30px;
+	line-height: 45px;
+}
+.footer {
+	width: 900px;
+	height: 37px;
+	background-image: url(../images/footer_bg_img.png);
+	overflow: hidden;
+	float: left;
+	line-height: 37px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}

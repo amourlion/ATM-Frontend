@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #999;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+img{ border-width:0;}
+#all {
+	width: 900px;
+	height: 716px;
+	background-color: #FF0;
+	margin: 0 auto;
+}
+#banner {
+	width: 900px;
+	height: 101px;
+}
+.banner_top {
+	width: 900px;
+	height: 91px;
+	background-image: url(../images/banner_bg_img1.png);
+	overflow: hidden;
+}
+.banner_bannerimg {
+	float: left;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.banner_fontimg {
+	float: left;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.banner_bottom {
+	width: 900px;
+	height: 10px;
+	overflow: hidden;
+	background-color: #E20001;
+}
+#main {
+	width: 900px;
+	height: 578px;
+	background-image: url(../images/main_bg_img.png);
+	overflow: hidden;
+	position: relative;
+}
+.main_hr {
+	width: 860px;
+	height: 5px;
+	overflow: hidden;
+	background-image: url(../images/2014-03-10_231431.gif);
+	margin: 0 auto;
+	margin-top: 1px;
+}
+.cunkuan_box {
+	width: 442px;
+	height: 330px;
+	margin: 0 auto;
+	background-color: #E2E2E2;
+	margin-top: 95px;
+	position: relative;
+	border-radius: 10px;
+}
+.cunkuan_box_floor1 {
+	font-size: 52px;
+	font-weight: bold;
+	width: 442px;
+	height: 139px;
+	overflow: hidden;
+	text-align: center;
+	float: left;
+	display: inline;
+	line-height: 139px;
+}
+.cunkuan_box_floor2 {
+	width: 442px;
+	height: 45px;
+	line-height: 45px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.cunkuan_box_floor2_font {
+	float: left;
+	display: inline;
+	line-height: 45px;
+	height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 30px;
+}
+.cunkuan_box_floor2_input {
+	float: left;
+	height: 45px;
+}
+#cunkuan_box_floor2_input {
+	height: 45px;
+	width: 233px;
+	font-size: 30px;
+}
+.cunkuan_box_floor3 {
+	width: 442px;
+	height: 146px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.cunkuan_box_floor3_queren {
+	float: left;
+	display: inline;
+	margin-left: 70px;
+	margin-top: 50px;
+	position: relative;
+}
+.cunkuan_box_floor3_back {
+	float: left;
+	display: inline;
+	margin-left: 50px;
+	margin-top: 50px;
+	position: relative;
+}
+.footer {
+	width: 900px;
+	height: 37px;
+	background-image: url(../images/footer_bg_img.png);
+	overflow: hidden;
+	float: left;
+	line-height: 37px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+.fanhui {
+	width: 125px;
+	height: 45px;
+}
+.banner_img {
+	width: 65px;
+}
+.bt {
+	width: 125px;
+	height: 43px;
+}
+.tishi{ position:absolute; top:200px; left:140px; font-weight:bold; color:red; display:none;}

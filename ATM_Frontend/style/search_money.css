@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #999;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border-width: 0;
+}
+#all {
+	width: 900px;
+	height: 716px;
+	background-color: #FF0;
+	margin: 0 auto;
+}
+#banner {
+	width: 900px;
+	height: 101px;
+}
+.banner_top {
+	width: 900px;
+	height: 91px;
+	background-image: url(../images/banner_bg_img1.png);
+	overflow: hidden;
+}
+.banner_bannerimg {
+	float: left;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.banner_fontimg {
+	float: left;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.banner_bottom {
+	width: 900px;
+	height: 10px;
+	overflow: hidden;
+	background-color: #E20001;
+}
+#main {
+	width: 900px;
+	height: 578px;
+	background-image: url(../images/main_bg_img.png);
+	overflow: hidden;
+}
+.main_hr {
+	width: 860px;
+	height: 5px;
+	overflow: hidden;
+	background-image: url(../images/2014-03-10_231431.gif);
+	margin: 0 auto;
+	margin-top: 1px;
+}
+.search_showbox {
+	width: 752px;
+	height: 312px;
+	background-color: #E2E2E2;
+	margin: 0 auto;
+	margin-top: 130px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.search_showbox_floor1 {
+	width: 752px;
+	height: 135px;
+	overflow: hidden;
+}
+.search_showbox_floor1_font {
+	width: 752px;
+	margin: 0 auto;
+	font-size: 54px;
+	font-weight: bold;
+	margin-top: 40px;
+	text-align:center;
+}
+.search_showbox_floor2 {
+	width: 752px;
+	height: 75px;
+}
+.search_showbox_floor2_font {
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	display: inline;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.search_showbox_floor2_value {
+	height: 41px;
+	width: 200px;
+	float: left;
+	display: inline;
+	margin-top: 30px;
+	line-height: 41px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+.search_showbox_floor3 {
+	width: 752px;
+	height: 103px;
+}
+.search_showbox_floor3_back {
+	float: right;
+	display: inline;
+	margin-top: 30px;
+	margin-right: 60px;
+}
+.footer {
+	width: 900px;
+	height: 37px;
+	background-image: url(../images/footer_bg_img.png);
+	overflow: hidden;
+	float: left;
+	line-height: 37px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+.banners{ width:65px;}
